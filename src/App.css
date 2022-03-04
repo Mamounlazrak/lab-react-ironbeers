@@ -28,6 +28,72 @@
   color: #61dafb;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-homepage {
+  text-decoration: none;
+  width: 40vw;
+  color: black;
+  border: 1px solid grey;
+
+}
+
+.img-homepage {
+  width: 40vw;
+  height: 25vh;
+
+}
+
+.navbar {
+  height: 10vh;
+  background-color: rgb(0, 204, 255);
+  display: flex;
+  flex-direction: column;
+}
+.icon{
+  color: white;
+  width: 40px;
+  height: 40px;
+}
+.navbar-element{
+  margin: auto;
+}
+
+.beer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.beer {
+  display: flex;
+  /* align-content: space-around; */
+  width: 40vw;
+  border: 1px solid grey;
+}
+
+.beer-link {
+  text-decoration: none;
+  color: black;
+}
+
+.img-beer {
+  width: 80px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.beer-info {
+  margin: auto;
+}
+
+.beer-img
+{
+  margin-left: 40px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
